@@ -1,0 +1,7 @@
+baseURL = "https://blog.samitugal.dev"
+languageCode = "tr-tr"
+title = "Sami Tuğal Blog"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "light"
