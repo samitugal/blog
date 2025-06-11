@@ -1,7 +1,7 @@
-+++
-date = '2025-06-11T16:24:05+03:00'
-draft = true
-title = 'First Blog'
-+++
+---
+title: "First Published Post"
+date: 2025-06-11
+draft: false
+---
 
-Hello World! Bu benim ilk blog yazım.
+Merhaba dünya! Bu benim ilk blog yazım.
