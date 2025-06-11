@@ -1,0 +1,35 @@
+- id: author
+  translation: "Yazar"
+
+- id: reading_time  
+  translation: "Okuma süresi"
+
+- id: published_on
+  translation: "Yayınlandı"
+
+- id: updated_on
+  translation: "Güncellendi"
+
+- id: categories
+  translation: "Kategoriler"
+
+- id: tags
+  translation: "Etiketler"
+
+- id: share
+  translation: "Paylaş"
+
+- id: about
+  translation: "Hakkında"
+
+- id: contact
+  translation: "İletişim"
+
+- id: search_placeholder
+  translation: "Ara..."
+
+- id: no_results
+  translation: "Sonuç bulunamadı"
+
+- id: found_results
+  translation: "sonuç bulundu" 

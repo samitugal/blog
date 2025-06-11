@@ -1,0 +1,3 @@
+# Browser language detection
+/ /en/ 302 Language=en
+/ / 302 Language=tr 

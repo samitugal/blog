@@ -1,26 +1,89 @@
 baseURL = "https://blog.samitugal.dev/"
-languageCode = "tr-tr"
 title = "Sami Tuğal Blog"
 theme = "PaperMod"
 canonifyURLs = true
 
+# Multilingual Configuration
+defaultContentLanguage = "tr"
+defaultContentLanguageInSubdir = false
+enableMissingTranslationPlaceholders = true
+
+[languages]
+  [languages.tr]
+    languageCode = "tr-TR"
+    languageName = "Türkçe"
+    title = "Sami Tuğal Blog"
+    weight = 1
+    contentDir = "content"
+    
+    [languages.tr.params]
+      description = "Teknoloji, yazılım geliştirme ve kişisel deneyimler"
+      ShowPostNavLinks = true
+      ShowBreadCrumbs = true
+      
+    [languages.tr.params.homeInfoParams]
+      Title = "Merhaba! Ben Sami Tuğal 👋"
+      Content = """Araştırmayı seven, çeşitli projelerle uğraşan bir yazılım geliştiricisiyim. Bu blogu, kendim için bir başlangıç noktası belirlemek ve zamanla gelişimimi izlemek amacıyla açtım.
+
+Yazılım geliştirme, teknoloji trendleri ve kişisel projelerim hakkında içerikler paylaşıyorum. Amacım, karmaşık konuları sade bir dille aktarmak ve bilgi paylaşımında bulunmak."""
+
+    [[languages.tr.menu.main]]
+      identifier = "posts"
+      name = "Yazılar"
+      url = "/posts/"
+      weight = 10
+      
+    [[languages.tr.menu.main]]
+      identifier = "tags"
+      name = "Etiketler"
+      url = "/tags/"
+      weight = 20
+      
+    [[languages.tr.menu.main]]
+      identifier = "categories"
+      name = "Kategoriler"
+      url = "/categories/"
+      weight = 30
+
+  [languages.en]
+    languageCode = "en-US"
+    languageName = "English"
+    title = "Sami Tuğal Blog"
+    weight = 2
+    contentDir = "content_en"
+    
+    [languages.en.params]
+      description = "Technology, software development and personal experiences"
+      ShowPostNavLinks = true
+      ShowBreadCrumbs = true
+      
+    [languages.en.params.homeInfoParams]
+      Title = "Hello! I'm Sami Tuğal 👋"
+      Content = """I'm a software developer who loves research and works on various projects. I started this blog as a starting point for myself and to track my development over time.
+
+I share content about software development, technology trends, and my personal projects. My goal is to explain complex topics in simple terms and share knowledge with everyone."""
+
+    [[languages.en.menu.main]]
+      identifier = "posts"
+      name = "Posts"
+      url = "/en/posts/"
+      weight = 10
+      
+    [[languages.en.menu.main]]
+      identifier = "tags"
+      name = "Tags"
+      url = "/en/tags/"
+      weight = 20
+      
+    [[languages.en.menu.main]]
+      identifier = "categories"
+      name = "Categories"
+      url = "/en/categories/"
+      weight = 30
+
 # Enable RSS feed
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-
-# Menu configuration
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    name = "Yazılar"
-    url = "/posts/"
-    weight = 10
-  
-  [[menu.main]]
-    identifier = "tags"
-    name = "Etiketler"
-    url = "/tags/"
-    weight = 20
 
 [params]
   defaultTheme = "auto"
@@ -32,14 +95,20 @@ canonifyURLs = true
   ShowToc = true
   TocOpen = false
   comments = false
+  ShowShareButtons = false
+  displayFullLangName = true
+  ShowFullTextinRSS = true
   
-  [params.homeInfoParams]
-    Title = "Merhaba! 👋"
-    Content = "Kişisel blog sayfama hoş geldiniz. Burada teknoloji, yazılım geliştirme ve kişisel deneyimlerim hakkında yazılar paylaşıyorum."
-
+  # Custom CSS for expanded home info area
+  assets.disableHLJS = false
+  
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/samitugal"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/samitugal/"
     
   [params.profileMode]
     enabled = false
