@@ -2,6 +2,7 @@ baseURL = "https://blog.samitugal.dev/"
 languageCode = "tr-tr"
 title = "Sami Tuğal Blog"
 theme = "PaperMod"
+canonifyURLs = true
 
 [params]
   defaultTheme = "light"
