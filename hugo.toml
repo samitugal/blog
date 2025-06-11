@@ -4,5 +4,56 @@ title = "Sami Tuğal Blog"
 theme = "PaperMod"
 canonifyURLs = true
 
+# Enable RSS feed
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# Menu configuration
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Yazılar"
+    url = "/posts/"
+    weight = 10
+  
+  [[menu.main]]
+    identifier = "tags"
+    name = "Etiketler"
+    url = "/tags/"
+    weight = 20
+
 [params]
-  defaultTheme = "light"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowToc = true
+  TocOpen = false
+  comments = false
+  
+  [params.homeInfoParams]
+    Title = "Merhaba! 👋"
+    Content = "Kişisel blog sayfama hoş geldiniz. Burada teknoloji, yazılım geliştirme ve kişisel deneyimlerim hakkında yazılar paylaşıyorum."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/samitugal"
+    
+  [params.profileMode]
+    enabled = false
+    title = "Sami Tuğal"
+    subtitle = "Yazılım Geliştirici"
+    imageUrl = ""
+    imageTitle = ""
+
+# SEO settings
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = ["title", "permalink", "summary", "content"]
