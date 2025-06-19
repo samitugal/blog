@@ -3,7 +3,7 @@ title: "Semantic Tool Search & Dynamic Tool Injection"
 date: 2025-06-15
 draft: false
 summary: "Bu yazıda agent mimarilerinde semantic tool search ve dynamic tool injection kavramlarını gerçek bir örnekle ele alıyorum. MCP protokolüyle birlikte nasıl ölçeklenebilir ve verimli sistemler kurabileceğimizi anlatıyorum."
-tags: ["generative ai", "mpc", "agents"]
+tags: ["generative ai", "mcp", "agents"]
 categories: ["tech"]
 ---
 
