@@ -1,0 +1,215 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "Scrollable Image" -}}
+{{- $caption := .Get "caption" -}}
+{{- $maxHeight := .Get "maxHeight" | default "500px" -}}
+{{- $id := .Get "id" | default (printf "scrollable-%d" now.Unix) -}}
+
+<div class="scrollable-image-container" id="{{ $id }}-container">
+  <div class="scrollable-image-wrapper" style="max-height: {{ $maxHeight }};">
+    <div class="scrollable-image-controls">
+      <button onclick="zoomImage('{{ $id }}', 1.2)" class="zoom-btn zoom-in">🔍+</button>
+      <button onclick="zoomImage('{{ $id }}', 0.8)" class="zoom-btn zoom-out">🔍-</button>
+      <button onclick="resetZoom('{{ $id }}')" class="zoom-btn reset-btn">↺</button>
+      <span class="help-text">Yakınlaştırmak için butonları kullanın veya fare tekerleğini çevirin</span>
+    </div>
+    <div class="scrollable-image-content">
+      <img 
+        id="{{ $id }}" 
+        src="{{ $src }}" 
+        alt="{{ $alt }}" 
+        style="max-width: 100%; height: auto; display: block; margin: 0 auto; cursor: grab; transition: transform 0.2s ease; user-select: none;"
+        draggable="false"
+        onwheel="handleWheel(event, '{{ $id }}')"
+        onmousedown="startDrag(event, '{{ $id }}')"
+        onload="initScrollableImage('{{ $id }}')"
+      />
+    </div>
+  </div>
+  {{- if $caption -}}
+  <p class="image-caption">{{ $caption }}</p>
+  {{- end -}}
+</div>
+
+<script>
+(function() {
+  let imageStates = {};
+  
+  window.initScrollableImage = function(id) {
+    if (!imageStates[id]) {
+      imageStates[id] = {
+        scale: 1,
+        isDragging: false,
+        startX: 0,
+        startY: 0,
+        scrollLeft: 0,
+        scrollTop: 0
+      };
+    }
+  };
+  
+  window.zoomImage = function(id, factor) {
+    const img = document.getElementById(id);
+    const state = imageStates[id];
+    if (!img || !state) return;
+    
+    state.scale *= factor;
+    state.scale = Math.max(0.1, Math.min(5, state.scale));
+    img.style.transform = `scale(${state.scale})`;
+  };
+  
+  window.resetZoom = function(id) {
+    const img = document.getElementById(id);
+    const state = imageStates[id];
+    const container = document.getElementById(id + '-container').querySelector('.scrollable-image-content');
+    
+    if (!img || !state) return;
+    
+    state.scale = 1;
+    img.style.transform = 'scale(1)';
+    container.scrollLeft = 0;
+    container.scrollTop = 0;
+  };
+  
+  window.handleWheel = function(event, id) {
+    event.preventDefault();
+    const factor = event.deltaY > 0 ? 0.9 : 1.1;
+    zoomImage(id, factor);
+  };
+  
+  window.startDrag = function(event, id) {
+    event.preventDefault();
+    const state = imageStates[id];
+    const container = document.getElementById(id + '-container').querySelector('.scrollable-image-content');
+    
+    if (!state) return;
+    
+    state.isDragging = true;
+    state.startX = event.clientX;
+    state.startY = event.clientY;
+    state.scrollLeft = container.scrollLeft;
+    state.scrollTop = container.scrollTop;
+    
+    const img = document.getElementById(id);
+    img.style.cursor = 'grabbing';
+    
+    const handleMouseMove = function(e) {
+      if (!state.isDragging) return;
+      
+      const deltaX = e.clientX - state.startX;
+      const deltaY = e.clientY - state.startY;
+      
+      container.scrollLeft = state.scrollLeft - deltaX;
+      container.scrollTop = state.scrollTop - deltaY;
+    };
+    
+    const handleMouseUp = function() {
+      state.isDragging = false;
+      img.style.cursor = 'grab';
+      document.removeEventListener('mousemove', handleMouseMove);
+      document.removeEventListener('mouseup', handleMouseUp);
+    };
+    
+    document.addEventListener('mousemove', handleMouseMove);
+    document.addEventListener('mouseup', handleMouseUp);
+  };
+})();
+</script>
+
+<style>
+.scrollable-image-container {
+  margin: 1.5rem 0;
+}
+
+.scrollable-image-wrapper {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--entry);
+  box-shadow: var(--shadow);
+  overflow: auto;
+  position: relative;
+}
+
+.scrollable-image-controls {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding: 8px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  background: var(--entry) !important;
+  border-bottom: 1px solid var(--border) !important;
+  backdrop-filter: blur(4px);
+}
+
+.zoom-btn {
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 12px;
+  background: var(--primary) !important;
+  color: var(--primary-text) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: calc(var(--radius) - 2px) !important;
+  transition: all 0.2s ease !important;
+}
+
+.help-text {
+  font-size: 12px;
+  margin-left: auto;
+  color: var(--secondary) !important;
+}
+
+.scrollable-image-content {
+  padding: 16px;
+  overflow: auto;
+  background: var(--entry);
+  position: relative;
+}
+
+.image-caption {
+  margin-top: 8px;
+  font-size: 14px;
+  text-align: center;
+  font-style: italic;
+  color: var(--secondary) !important;
+}
+
+.zoom-btn:hover {
+  background: var(--secondary) !important;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.scrollable-image-content::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.scrollable-image-content::-webkit-scrollbar-track {
+  background: var(--code-bg);
+  border-radius: 4px;
+}
+
+.scrollable-image-content::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+
+.scrollable-image-content::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary);
+}
+
+.scrollable-image-container p {
+  color: var(--secondary) !important;
+}
+
+/* Dark mode özel ayarları */
+[data-theme="dark"] .scrollable-image-wrapper {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+
+/* Light mode özel ayarları */
+[data-theme="light"] .scrollable-image-wrapper {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+</style>
