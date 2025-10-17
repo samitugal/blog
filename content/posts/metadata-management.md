@@ -41,6 +41,11 @@ Altındaki katmanlarda değişiklikler olabilir (bir model M1 seviyesindeyken M2
 Veri dünyasını dört katmanlı bir piramit gibi düşünebiliriz: M0’dan M3’e uzanan bir yapı. En altta somut veri bulunur, en üstte ise bu veriyi yöneten ve tanımlayan yasalar yer alır. Şimdi bu katmanları biraz daha yakından inceleyelim.
 
 ### 3.2 M0 Katmanı
+
+M0 Katmanı, gerçek dünyanın kendisidir. Somut veri bu katmanda bulunur. Bu katmanda herhangi bir şema veya kural yoktur, sadece verinin kendisi vardır. Veritabanınızda bulunan tablolardaki kayıtlı veri M0 katmanında bulunur.
+
+Gözlemlediğimiz olaylar, ölçümler, belgeler, fotoğraflar, sistem logları — hepsi M0’dır. Tıpkı bir dil modelinin metin token’ları gibi, M0 da yalnızca ham veri parçalarından oluşur.
+
 ### 3.3 M1 Katmanı
 ### 3.4 M2 Katmanı
 ### 3.5 M3 Katmanı
