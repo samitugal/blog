@@ -37,7 +37,7 @@ Kurumsal ölçekteyse metadata, yüzlerce tablo ve milyonlarca satır veri aras�
 MOF (Meta Object Facility) en basit tabiriyle, metadata’yı tanımladığımız modelleme sistemidir.
 Yani sahip olduğumuz veriyi açıklayan yapıları (bu yapıları 4. bölümde detaylıca inceleyeceğiz) tanımlayan meta-modeli bile, bir üst düzey model ile tanımlar.
 
-MOF kavramı ilk kez OMG (Object Management Group) tarafından ortaya atılmıştır — aynı kurum UML (Unified Modeling Language) standardını da geliştirmiştir. Amaç, farklı modelleme dillerine ortak bir çatı sağlamaktı. UML, BPMN veya CWM gibi modelleme sistemleri birbirinden farklı görünse de aslında hepsi MOF üzerine inşa edilmiş meta-dillerdir.
+MOF kavramı ilk kez OMG (Object Management Group) tarafından ortaya atılmıştır. Aynı kurum UML (Unified Modeling Language) standardını da geliştirmiştir. MOF kavramının geliştirilme amacı, farklı modelleme dillerine ortak bir çatı sağlamaktı. UML, BPMN veya CWM gibi modelleme sistemleri birbirinden farklı görünse de aslında hepsi MOF üzerine inşa edilmiş meta-dillerdir.
 
 Bir bakıma MOF, modelleme evreninin “Big Bang teorisi” gibidir: Her şey ondan türemiştir ama kendisi hepsinin üstündedir.
 Altındaki katmanlarda değişiklikler olabilir (bir model M1 seviyesindeyken M2’ye çıkarılabilir) fakat MOF her zaman en üst katman olarak kalır.
@@ -50,7 +50,7 @@ Veri dünyasını dört katmanlı bir piramit gibi düşünebiliriz: M0’dan M3
 
 M0 Katmanı, gerçek dünyanın kendisidir. Somut veri bu katmanda bulunur. Bu katmanda herhangi bir şema veya kural yoktur, sadece verinin kendisi vardır. Veritabanınızda bulunan tablolardaki kayıtlı veri M0 katmanında bulunur.
 
-Gözlemlediğimiz olaylar, ölçümler, belgeler, fotoğraflar, sistem logları — hepsi M0’dır. Tıpkı bir dil modelinin metin token’ları gibi, M0 da yalnızca ham veri parçalarından oluşur.
+Gözlemlediğimiz olaylar, ölçümler, belgeler, fotoğraflar, sistem logları hepsi M0’dır. Tıpkı bir dil modelinin metin token’ları gibi, M0 da yalnızca ham veri parçalarından oluşur.
 
 ![M0 Layer Example](/images/m0_layer.png)
 
@@ -78,7 +78,7 @@ Meta Model katmanıdır. M1 katmanında *Customers* tablosu bir entity olarak ta
 
 ### 3.5 M3 Katmanı
 
-Geldik en üst katmana M3 katmanı, teknik olarak *modelin modelinin modelidir* yani MOF'un kendisidir (Bu kısım biraz kafa karıştırıcı). Burası tamamen kavramsal bir katmandır.
+Geldik en üst katmana M3 katmanı, teknik olarak *modelinin modelidir* yani MOF'un kendisidir (Bu kısım biraz kafa karıştırıcı). Burası tamamen kavramsal bir katmandır.
 M3 katmanında artık ‘veri nedir’ değil, ‘veriyi tanımlamak nedir’ sorusuna cevap verir. Burada modellerin fiziğini değil, fiziğin yasalarını tanımlarız.
 
 ![M3 Layer Example](/images/m3_layer.png)
@@ -172,7 +172,7 @@ paylaşımın sonucunda şeffaflık sağlanır, çok başlılık önlenir. Eğer
 
 Kurumsal ölçekte metadata yönetiminin başarısı, governance (yönetişim) kavramına dayanır. Metadata governance, kurum genelinde verinin nasıl tanımlanacağı, kimlerin güncelleme yetkisine sahip olacağı ve değişikliklerin nasıl izleneceğini belirleyen bir kontrol çerçevesidir.
 
-Bu çerçevenin en kritik boyutu, veri kalitesidir. Tozer’ın vurguladığı gibi, birçok kurum veri miktarını yönetmeyi “veri kalitesini yönetmek” sanır — ancak aslında ikisi bambaşka şeylerdir. Etkili metadata governance:
+Bu çerçevenin en kritik boyutu, veri kalitesidir. Tozer’ın vurguladığı gibi, birçok kurum veri miktarını yönetmeyi “veri kalitesini yönetmek” sanır ancak aslında ikisi bambaşka şeylerdir. Etkili metadata governance:
 
 * Tutarlılık (consistency) ve doğruluk (accuracy) ilkelerini sağlar.
 * Kurumsal veri sözlüklerini, iş terimlerini ve teknik tanımları tek noktadan yönetir.
@@ -183,8 +183,10 @@ Bu yaklaşım, veri yönetimini teknik bir görev olmaktan çıkarır; stratejik
 ---
 
 ## 6. Özet
+Bilgi çağında sıkça söylenen bir söz var: *Data is the new oil.*
 
-Veri, çağımızın en değerli hammaddesidir; ancak anlamı olmadan hiçbir şey ifade etmez. Metadata, bu veriye anlam, bağlam ve güven kazandırır.
+Ben buna küçük ama önemli bir ekleme yapmak istiyorum: *Data is the new oil if you process and store it right.* Veri, çağımızın en değerli hammaddesidir; ancak anlamı olmadan hiçbir şey ifade etmez. Metadata, bu veriye anlam, bağlam ve güven kazandırır.
+
 MOF gibi meta-modelleme standartlarıysa, bu anlamın sürdürülebilir ve paylaşılabilir olmasını sağlar. Kurumsal düzeyde metadata yönetimi, yalnızca veri tabanlarını düzenlemek değil; bilgiyi yönetmek, anlamı korumak ve tutarlılığı sağlamak demektir.
 
 ---
