@@ -112,7 +112,7 @@ Memory is a broad topic in agent systems. I covered it in detail in my earlier p
 
 In the context of this post, I treat memory not as a structure that gives an agent “intelligence,” but as a layer that provides continuity and context. LLMs are stateless by nature; they cannot remember what was said in the past or which steps were taken on their own. The memory layer fills this gap. While session-based memory preserves short-term context, long-term memory enables leveraging past interactions. But the critical point is not the existence of memory—it is how and when it is used. The agent itself decides what information should be stored and what should be retrieved. In this sense, the memory layer provides an infrastructure that feeds the agent’s decision mechanism. It does not produce meaning on its own; when used correctly, it makes agent behavior consistent and context-aware.
 
-# 4. Thinking of Agents as Systems, Not Objects
+## 4. Thinking of Agents as Systems, Not Objects
 Throughout this post, I tried to explain why it is misleading to treat LLM-based agents as single, magical entities. In practice, an agent is not just a model, a few prompts, or an API call. An agent is a system formed by multiple components coming together in specific relationships.
 
 The agent core makes decisions and manages orchestration. The interaction layer provides context and flow. The capabilities layer enables the agent to touch the outside world. The memory layer makes continuity possible.

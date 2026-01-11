@@ -113,7 +113,7 @@ Hafıza konusu agent sistemlerinde başlı başına geniş bir alan. Bu konuyu d
 
 Bu yazı bağlamında hafızayı, agent’a “zeka” kazandıran bir yapıdan çok, süreklilik ve bağlam sağlayan bir katman olarak ele alıyorum. LLM’ler doğası gereği stateless çalışır; geçmişte ne konuşulduğunu veya hangi adımların atıldığını kendi başına hatırlamaz. Hafıza katmanı bu kopukluğu giderir. Session bazlı hafıza kısa vadeli bağlamı korurken, uzun vadeli hafıza geçmiş etkileşimlerden faydalanılmasını sağlar. Ancak kritik nokta hafızanın varlığı değil, nasıl ve ne zaman kullanıldığıdır. Hangi bilginin saklanacağına ve geri çağrılacağına karar veren yine agent’ın kendisidir. Bu yönüyle hafıza katmanı, agent’ın karar mekanizmasını besleyen bir altyapı sunar. Tek başına anlam üretmez; doğru kullanıldığında agent davranışlarını tutarlı ve bağlam-aware hale getirir.
 
-# 4. Agent’ları Bir Nesne Değil, Bir Sistem Olarak Düşünmek
+## 4. Agent’ları Bir Nesne Değil, Bir Sistem Olarak Düşünmek
 Bu yazı boyunca LLM tabanlı agent’ları tekil, sihirli varlıklar olarak ele almanın neden yanıltıcı olduğunu anlatmaya çalıştım. Pratikte bir agent; bir model, birkaç prompt ya da bir API çağrısından ibaret değil. Agent, birden fazla bileşenin belirli ilişkiler içerisinde bir araya gelmesiyle oluşan bir sistemdir.
 
 Agent çekirdeği karar verir ve orkestrasyonu yönetir. Etkileşim katmanı bağlamı ve akışı sağlar. Yetkinlik katmanı agent’ı dış dünyayla temas ettirir. Hafıza katmanı sürekliliği mümkün kılar.
