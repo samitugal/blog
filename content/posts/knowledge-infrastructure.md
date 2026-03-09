@@ -91,7 +91,7 @@ Yukarıdaki yaklaşımların sürdürülebilir olması için kurumsal yönetişi
 
 Sıfırdan bir şey üretmek keyiflidir. Kişisel projelerimde ben de sıklıkla bir şeyi beğenmediğimde silip baştan başlıyorum. Ancak iş hayatında bu lüksümüz yok. Kurumsal sistemlerde yılların bilgi birikimi, canlı müşteriler ve en ufak kesintinin bile ciddi maliyetlere yol açabileceği bir gerçeklik var.
 
-Bu nedenle yapay zeka ile verimlilik hedefliyorsak ilk adım yeni araçlar edinmek değil, elimizdekini güçlendirmektir. Sistemlerdeki saklı kalmış bilgiyi ortaya çıkarmak, dokümante etmek, anlamsal katmanlarla zenginleştirmek ve tüm bunları sürdürülebilir yönetişim standartlarına bağlamak gerekiyor.
+Bu nedenle yapay zeka ile verimlilik hedefliyorsak ilk adım yeni araçlar edinmek değil, elimizdekini güçlendirmektir. Sistemlerdeki örtük bilgiyi ortaya çıkarmak, dokümante etmek, anlamsal katmanlarla zenginleştirmek ve tüm bunları sürdürülebilir yönetişim standartlarına bağlamak gerekiyor.
 
 AI agentların başarısı yalnızca model kalitesine değil, üzerinde çalıştıkları bilgi altyapısının kalitesine bağlıdır. O zemini sağlamlaştırmak da bizim işimiz.
 
