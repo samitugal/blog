@@ -86,6 +86,7 @@ I share content about software development, technology trends, and my personal p
   home = ["HTML", "RSS", "JSON"]
 
 [params]
+  author = "Sami Tuğal"
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowPostNavLinks = true
