@@ -71,9 +71,13 @@ Agentlardan çıkan her çıktının alan uzmanları tarafından değerlendirilm
 
 Agentlar için bağlam her şeydir ve bu bağlamı kirletmemek gerekir. Bağlam penceresine yalnızca en ilgili bilgilerin eklenmesi, agentın ürettiği çıktının kalitesini doğrudan etkiler. Encoder tabanlı modeller ile oluşturulan anlamsal vektörler sayesinde kullanıcının isteğine en uygun bilgiler belirlenebilir ve bağlama eklenebilir. Bu anlamsal arama katmanı, ham veri ile agent arasında bir filtre görevi görerek gereksiz bilgi yükünü azaltır ve agentın doğru sonuca ulaşma olasılığını artırır.
 
-### Ontoloji
+### Bilgi Çizgeleri
 
-Anlamsal katman doğru bilgiyi bulmayı sağlarken, ontoloji bu bilgiler arasındaki ilişkileri ve hiyerarşiyi tanımlar. Bir kurumun varlıkları (müşteriler, ürünler, süreçler, sistemler) arasındaki ilişkiler resmi bir bilgi grafiği olarak modellendiğinde, agent yalnızca tek bir bilgiyi değil, o bilginin bağlamını ve diğer kavramlarla ilişkisini de anlayabilir. Örneğin "müşteri şikâyeti" kavramının hangi ürünle, hangi süreçle ve hangi ekiple ilişkili olduğunu bilen bir agent, çok daha tutarlı ve bütünsel çözümler üretebilir.
+Anlamsal katman doğru bilgiyi bulmayı sağlarken, bilgi çizgeleri bu bilgiler arasındaki ilişkileri görünür hale getirir. Bir kurumun varlıkları (müşteriler, ürünler, süreçler, sistemler) arasındaki ilişkiler bir bilgi çizgesi üzerinde temsil edildiğinde, sistem yalnızca veri saklayan bir yapı olmaktan çıkar ve kurumsal bilgiyi ifade eden bir modele dönüşür.
+
+Bilgi çizgeleri, kurum içindeki varlıkların ve bu varlıklar arasındaki ilişkilerin makine tarafından anlaşılabilir bir grafik yapısı içinde temsil edilmesini sağlar. Örneğin bir bilgi çizgesinde “müşteri”, “sipariş”, “ürün” ve “destek talebi” gibi kavramlar düğümler olarak modellenirken, bu kavramlar arasındaki ilişkiler kenarlar aracılığıyla ifade edilir.
+
+Bu sayede bir agent yalnızca tek bir veriyi değil, o verinin diğer kavramlarla olan bağlamını da anlayabilir. Örneğin "müşteri şikâyeti" kavramının hangi ürünle, hangi süreçle ve hangi ekiple ilişkili olduğunu bilen bir agent, çok daha tutarlı ve bütünsel çözümler üretebilir.
 
 ### Yönetişim Standartlarının Uygulanması
 
