@@ -28,6 +28,12 @@ enableMissingTranslationPlaceholders = true
 Yazılım geliştirme, teknoloji trendleri ve kişisel projelerim hakkında içerikler paylaşıyorum. Amacım, karmaşık konuları sade bir dille aktarmak ve bilgi paylaşımında bulunmak."""
 
     [[languages.tr.menu.main]]
+      identifier = "about"
+      name = "Hakkımda"
+      url = "/about/"
+      weight = 5
+
+    [[languages.tr.menu.main]]
       identifier = "posts"
       name = "Yazılar"
       url = "/posts/"
@@ -64,6 +70,12 @@ Yazılım geliştirme, teknoloji trendleri ve kişisel projelerim hakkında içe
 I share content about software development, technology trends, and my personal projects. My goal is to explain complex topics in simple terms and share knowledge with everyone."""
 
     [[languages.en.menu.main]]
+      identifier = "about"
+      name = "About"
+      url = "/en/about/"
+      weight = 5
+
+    [[languages.en.menu.main]]
       identifier = "posts"
       name = "Posts"
       url = "/en/posts/"
@@ -95,8 +107,8 @@ I share content about software development, technology trends, and my personal p
   ShowWordCount = true
   ShowToc = true
   TocOpen = false
-  comments = false
-  ShowShareButtons = false
+  comments = true
+  ShowShareButtons = true
   displayFullLangName = true
   ShowFullTextinRSS = true
   
@@ -110,6 +122,10 @@ I share content about software development, technology trends, and my personal p
   [[params.socialIcons]]
     name = "linkedin"
     url = "https://www.linkedin.com/in/samitugal/"
+
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
     
   [params.profileMode]
     enabled = false
