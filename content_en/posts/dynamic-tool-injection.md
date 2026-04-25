@@ -1,10 +1,15 @@
 ---
 title: "Semantic Tool Search & Dynamic Tool Injection"
 date: 2025-06-15
+lastmod: 2025-06-15
 draft: false
+description: "Semantic tool search and dynamic tool injection in AI agent architectures. How to build scalable agent systems with MCP protocol."
 summary: "How to make agent-based systems more scalable using MCP, semantic tool search and dynamic tool injection — with a real implementation example."
+slug: "semantic-tool-search-dynamic-injection"
+keywords: ["semantic search", "tool injection", "MCP", "agent", "LLM", "artificial intelligence", "function calling"]
 tags: ["generative ai", "mcp", "agents"]
 categories: ["tech"]
+author: "Sami Tuğal"
 ---
 
 ## What Are Agents?

@@ -1,17 +1,24 @@
 ---
 title: "Designing an AI Native System from Scratch"
 date: 2026-03-28
+lastmod: 2026-03-28
 draft: false
+description: "AI native system design: designing systems for agents from the ground up instead of retrofitting. Agent organization and architectural principles."
 summary: "Instead of retrofitting agents into existing systems, I discuss what it means to design a system for agents from the ground up and how agent organization should be structured."
+slug: "ai-native-system-design"
+keywords: ["AI native", "agent system", "AI architecture", "agentic system", "system design", "multi-agent"]
 tags: ["ai", "agent", "agentic-system", "architecture"]
 categories: ["technology"]
+images:
+  - "/images/ai-native-hero-eng.png"
+author: "Sami Tuğal"
 ---
 
 ![Designing an AI Native System from Scratch](/images/ai-native-hero-eng.png)
 
 ## Introduction
 
-In my [previous blog post](/posts/knowledge-infrastructure.md), I talked about the challenges of making existing systems compatible with agents. Existing systems were designed with humans in mind, knowledge was embedded in people's heads, and agents were being retrofitted into this structure after the fact.
+In my [previous blog post]({{< relref "knowledge-infrastructure.md" >}}), I talked about the challenges of making existing systems compatible with agents. Existing systems were designed with humans in mind, knowledge was embedded in people's heads, and agents were being retrofitted into this structure after the fact.
 
 In this post, I wanted to flip that question. What should we do if we don't want to deal with this problem at all? What does it look like to design a system from scratch, knowing that agents will be working within it?
 

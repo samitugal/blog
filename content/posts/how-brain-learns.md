@@ -1,10 +1,17 @@
 ---
-title: "Beyin Nasıl Öğrenir"
+title: "Beyin Nasıl Öğrenir? Zeka Türleri, Hafıza ve Yapay Zeka"
 date: 2026-04-25
+lastmod: 2026-04-25
 draft: false
-summary: "Beyin nasıl öğrenir, bilgi nereye kaydolur, neden unutuyoruz? Bu yazıda zeka türlerinden biyolojik öğrenme mekanizmasına ve modern yapay zekanın bu işin neresinde takıldığına bakıyorum."
+description: "Beyin nasıl öğrenir, bilgi nereye kaydolur, neden unutuyoruz? Sternberg'in zeka türleri, biyolojik öğrenme mekanizması ve modern AI'ın bu işin neresinde takıldığı."
+summary: "Bu yazıda zeka türlerinden biyolojik öğrenme mekanizmasına ve modern yapay zekanın bu işin neresinde takıldığına bakıyorum."
+slug: "beyin-nasil-ogrenir"
+keywords: ["öğrenme", "beyin", "yapay zeka", "spaced repetition", "Sternberg zeka teorisi", "Kahneman", "hafıza"]
 tags: ["bilim", "beyin", "öğrenme", "AI"]
 categories: ["genel"]
+images:
+  - "/images/how-brain-learns/brain-header.png"
+author: "Sami Tuğal"
 ---
 
 ![Beyin ve devre kartı melezi, 8-bit pixel art](/images/how-brain-learns/brain-header.png)
@@ -20,7 +27,7 @@ Geleneksel olarak IQ testleri kişinin mantıksal ve sözel potansiyelini ölçm
 
 *Sözelciler için kanıtlayalım: (10 / 8) × 100 = 125*
 
-IQ'nun doğuştan itibaren sabit olduğu düşünülürdü ama entelektüel kapasiteye dair bu tür geleneksel fikirlere bugün karşı çıkılıyor. [Bir önceki yazımda](/posts/how-brain-works) bahsetmiştim: beynimiz %50 doğuştan gelirken kalan %50 çevreye göre şekilleniyor; bunun adına *plastisite* deniyor.
+IQ'nun doğuştan itibaren sabit olduğu düşünülürdü ama entelektüel kapasiteye dair bu tür geleneksel fikirlere bugün karşı çıkılıyor. [Bir önceki yazımda]({{< relref "how-brain-works.md" >}}) bahsetmiştim: beynimiz %50 doğuştan gelirken kalan %50 çevreye göre şekilleniyor; bunun adına *plastisite* deniyor.
 
 ---
 
@@ -125,7 +132,7 @@ Buna **testing effect** denir: bir bilgiyi pasifçe okumak yerine, kapalı kitap
 
 Bir başka önemli nokta: geri çağırma çoğu zaman "bilgi kayboldu mu" sorusu değil, "bilgiye giden yolu bulamadım mı" sorusudur. Beynin karanlık dehlizlerinde bilgi duruyor olabilir, ama o anda doğru ipucu olmadan ulaşılamıyor. "Aklımın ucunda ama hatırlayamıyorum" durumu tam olarak bu. Birisi sana bağlamı verdiğinde "ha evet!" deyip hatırlaman da, kaybolan bilginin değil, kaybolan ipucunun geri gelmesinden ibaret.
 
-İlginç bir paralel: bir RAG sistemi tam olarak bunu yapıyor. Bilgi vektör veritabanında durur, ama ihtiyaç anında doğru sorguyla çağrılması gerekir. [Agent Memory yazımda](/posts/agent-memory) bu mekanizmayı detaylandırmıştım. Beyin de farklı çalışmıyor; saklamak ile çağırmak iki ayrı problem ve ikincisi çoğu zaman daha kritik.
+İlginç bir paralel: bir RAG sistemi tam olarak bunu yapıyor. Bilgi vektör veritabanında durur, ama ihtiyaç anında doğru sorguyla çağrılması gerekir. [Agent Memory yazımda]({{< relref "agent-memory.md" >}}) bu mekanizmayı detaylandırmıştım. Beyin de farklı çalışmıyor; saklamak ile çağırmak iki ayrı problem ve ikincisi çoğu zaman daha kritik.
 
 ---
 

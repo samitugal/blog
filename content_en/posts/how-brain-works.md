@@ -1,10 +1,15 @@
 ---
-title: "How Does the Brain Think?"
+title: "How Does the Brain Think? Neurons, Synapses and AI"
 date: 2025-07-02
+lastmod: 2025-07-02
 draft: false
-summary: "How does the human brain think and express thoughts? Can we simulate it with today’s technology?"
+description: "How does the human brain think and express thoughts? Working principles of neurons and simulation possibilities with today's technology."
+summary: "How does the human brain think and express thoughts? Can we simulate it with today's technology?"
+slug: "how-brain-thinks"
+keywords: ["brain", "neuron", "synapse", "artificial intelligence", "David Eagleman", "thought", "consciousness"]
 tags: ["science", "brain", "graph"]
 categories: ["general"]
+author: "Sami Tuğal"
 ---
 
 ## How the Brain Works

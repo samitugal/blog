@@ -2,6 +2,9 @@ baseURL = "https://blog.samitugal.dev/"
 title = "Sami Tuğal Blog"
 theme = "PaperMod"
 canonifyURLs = true
+enableRobotsTXT = true
+enableEmoji = true
+enableGitInfo = true
 
 # Multilingual Configuration
 defaultContentLanguage = "tr"
@@ -99,6 +102,7 @@ I share content about software development, technology trends, and my personal p
 
 [params]
   author = "Sami Tuğal"
+  description = "Sami Tuğal'ın yazılım, AI ve veri üzerine düşünceleri."
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowPostNavLinks = true
@@ -133,6 +137,25 @@ I share content about software development, technology trends, and my personal p
     subtitle = "Yazılım Geliştirici"
     imageUrl = ""
     imageTitle = ""
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[minify]
+  disableHTML = false
+  disableCSS = false
+  disableJS = false
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
 
 # SEO settings
 [params.fuseOpts]

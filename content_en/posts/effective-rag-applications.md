@@ -1,10 +1,15 @@
 ---
 title: "RAG Pipeline Optimization Techniques"
 date: 2025-08-30
+lastmod: 2025-08-30
 draft: false
-summary: In this post, we discuss how to make RAG pipelines more effective and production-ready.
+description: "RAG pipeline optimization: chunking strategies, embedding selection, retrieval quality and LLM integration. A guide for effective RAG applications."
+summary: "In this post, we discuss how to make RAG pipelines more effective and production-ready."
+slug: "rag-pipeline-optimization"
+keywords: ["RAG", "retrieval augmented generation", "LLM", "embedding", "vector database", "chunking", "artificial intelligence"]
 tags: ["generative ai", "RAG", "agents"]
 categories: ["tech"]
+author: "Sami Tuğal"
 ---
 
 ## Retrieval Augmented Generation

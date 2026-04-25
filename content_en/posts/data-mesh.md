@@ -1,10 +1,15 @@
 ---
-title: "Data Mesh"
+title: "What is Data Mesh? Four Core Principles and Implementation"
 date: 2025-08-22
+lastmod: 2025-08-22
 draft: false
+description: "What is Data Mesh architecture? Four core principles solving centralized data warehouse problems: domain ownership, data as product, self-serve platform, federated governance."
 summary: "A deep dive into Data Mesh: decentralized data ownership, data as a product, self-serve data platforms, and federated governance."
+slug: "what-is-data-mesh"
+keywords: ["data mesh", "data management", "data governance", "Zhamak Dehghani", "microservices", "data architecture", "domain ownership"]
 tags: ["data", "data governance", "data governance paradigms"]
 categories: ["data"]
+author: "Sami Tuğal"
 ---
 
 # What is Data Mesh?

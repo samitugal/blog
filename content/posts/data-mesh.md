@@ -1,10 +1,15 @@
 ---
-title: "Data Mesh"
+title: "Data Mesh Nedir? Dört Temel Prensip ve Uygulama"
 date: 2025-08-22
+lastmod: 2025-08-22
 draft: false
+description: "Data Mesh mimarisi nedir? Merkezi veri ambarı sorunlarına çözüm sunan dört temel prensip: domain ownership, data as product, self-serve platform, federated governance."
 summary: "Merkezi veri ambarı mimarilerinin sorunlarına çözüm sunan Data Mesh yaklaşımını, dört temel prensibi ve iş dünyasındaki önemini ele alıyoruz."
+slug: "data-mesh-nedir"
+keywords: ["data mesh", "veri yönetimi", "data governance", "Zhamak Dehghani", "mikroservis", "veri mimarisi", "domain ownership"]
 tags: ["data", "data governance", "data governance paradigms"]
 categories: ["data"]
+author: "Sami Tuğal"
 ---
 
 # Data Mesh Nedir?

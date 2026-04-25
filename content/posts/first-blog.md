@@ -1,10 +1,15 @@
 ---
 title: "Neden Blog Yazmaya Karar Verdim?"
 date: 2025-06-12
+lastmod: 2025-06-12
 draft: false
+description: "Blog yazma motivasyonum ve bu yolculuğa nasıl başladım. Yazılım, yapay zeka ve kişisel gelişim üzerine düşüncelerimi paylaşıyorum."
 summary: "Blog yazma motivasyonum nereden geldi? Yazılarım neler hakkında olacak. Küçük bir bilgilendirme."
+slug: "neden-blog-yazmaya-karar-verdim"
+keywords: ["blog", "motivasyon", "yazılım", "kişisel gelişim", "hello world", "Sami Tuğal"]
 tags: ["motivasyon", "giriş", "hello world"]
 categories: ["genel"]
+author: "Sami Tuğal"
 ---
 
 ## Neden Blog?

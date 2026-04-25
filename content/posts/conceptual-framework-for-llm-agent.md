@@ -1,10 +1,15 @@
 ---
 title: "LLM tabanlı Agent Sistemleri için Kavramsal Çerçeve"
 date: 2026-01-11
+lastmod: 2026-01-11
 draft: false
-summary: "LLM tabanlı agent sistemlerinin temel bileşenlerini ve aralarındaki ilişkileri framework bağımsız bir bakışla ele alan kavramsal çerçeveyi oluşturmaya çalışıyorum"
+description: "LLM tabanlı agent sistemlerinin temel bileşenleri: memory, tools, sessions ve mesajlar. Framework bağımsız kavramsal mimari rehberi."
+summary: "LLM tabanlı agent sistemlerinin temel bileşenlerini ve aralarındaki ilişkileri framework bağımsız bir bakışla ele alan kavramsal çerçeveyi oluşturmaya çalışıyorum."
+slug: "llm-agent-kavramsal-cerceve"
+keywords: ["LLM agent", "agent framework", "yapay zeka", "memory", "tools", "AI architecture", "langchain"]
 tags: ["llm", "agent", "agent-framework"]
 categories: ["ai"]
+author: "Sami Tuğal"
 ---
 
 ## 1. Giriş
@@ -109,7 +114,7 @@ Bu ayrım kritik bir noktayı netleştirir: Agent karar verir, tool uygular.
 Yetkinlik katmanı, agent’a zekâ kazandırmaz. Ancak agent’ın verdiği kararların gerçek dünyada bir karşılığı olmasını sağlar. Tool’lar olmadan agent’lar yalnızca cevap üreten varlıklar olarak kalır. Tool’larla birlikte ise, çevresiyle etkileşime giren ve somut işler yapabilen sistemlere dönüşürler.
 
 ## 3.4. Hafıza Katmanı
-Hafıza konusu agent sistemlerinde başlı başına geniş bir alan. Bu konuyu daha önce [Agent’larda Memory Kullanımı ve Türleri](/posts/agent-memory) başlıklı yazımda detaylıca ele almıştım; burada tekrar etmek yerine, hafıza katmanının bu yazıdaki rolünü kısaca konumlandırmak istiyorum.
+Hafıza konusu agent sistemlerinde başlı başına geniş bir alan. Bu konuyu daha önce [Agent'larda Memory Kullanımı ve Türleri]({{< relref "agent-memory.md" >}}) başlıklı yazımda detaylıca ele almıştım; burada tekrar etmek yerine, hafıza katmanının bu yazıdaki rolünü kısaca konumlandırmak istiyorum.
 
 Bu yazı bağlamında hafızayı, agent’a “zeka” kazandıran bir yapıdan çok, süreklilik ve bağlam sağlayan bir katman olarak ele alıyorum. LLM’ler doğası gereği stateless çalışır; geçmişte ne konuşulduğunu veya hangi adımların atıldığını kendi başına hatırlamaz. Hafıza katmanı bu kopukluğu giderir. Session bazlı hafıza kısa vadeli bağlamı korurken, uzun vadeli hafıza geçmiş etkileşimlerden faydalanılmasını sağlar. Ancak kritik nokta hafızanın varlığı değil, nasıl ve ne zaman kullanıldığıdır. Hangi bilginin saklanacağına ve geri çağrılacağına karar veren yine agent’ın kendisidir. Bu yönüyle hafıza katmanı, agent’ın karar mekanizmasını besleyen bir altyapı sunar. Tek başına anlam üretmez; doğru kullanıldığında agent davranışlarını tutarlı ve bağlam-aware hale getirir.
 

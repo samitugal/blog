@@ -1,10 +1,15 @@
 ---
 title: "Why I Decided to Start a Blog"
 date: 2025-06-12
+lastmod: 2025-06-12
 draft: false
+description: "My motivation for blogging and how I started this journey. Sharing my thoughts on software, AI and personal development."
 summary: "Where did my motivation to write come from? What will my posts be about? A small introduction."
+slug: "why-i-decided-to-start-a-blog"
+keywords: ["blog", "motivation", "software", "personal development", "hello world", "Sami Tuğal"]
 tags: ["motivation", "introduction", "hello world"]
 categories: ["general"]
+author: "Sami Tuğal"
 ---
 
 ## Why Blog?

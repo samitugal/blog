@@ -1,17 +1,24 @@
 ---
 title: "Sıfırdan AI Native Sistem Tasarlamak"
 date: 2026-03-28
+lastmod: 2026-03-28
 draft: false
+description: "AI native sistem tasarımı: agentları sonradan eklemek yerine sistemi baştan agentlar için tasarlamak. Agent organizasyonu ve mimari prensipler."
 summary: "Sıfırdan bir sistem kuruyorsak agentları sonradan eklemek yerine, sistemi baştan agentlar için tasarlamanın ne anlama geldiğini ve agent organizasyonunun nasıl kurulması gerektiğini tartışıyorum."
+slug: "ai-native-sistem-tasarimi"
+keywords: ["AI native", "agent sistemi", "yapay zeka mimarisi", "agentic system", "sistem tasarımı", "AI architecture", "multi-agent"]
 tags: ["ai", "agent", "agentic-system", "architecture"]
 categories: ["teknoloji"]
+images:
+  - "/images/ai-native-hero.png"
+author: "Sami Tuğal"
 ---
 
 ![Sıfırdan AI Native Sistem Tasarlamak](/images/ai-native-hero.png)
 
 ## Giriş
 
-Bir önceki [blog yazımda](/posts/knowledge-infrastructure.md) mevcut sistemleri agentlarla uyumlu hale getirmenin zorluklarından bahsetmiştim. Mevcut sistemler insan odaklı tasarlanmış, bilgi insanların kafasına gömülmüş ve agentlar bu yapıya sonradan dahil edilmeye çalışılıyordu.
+Bir önceki [blog yazımda]({{< relref "knowledge-infrastructure.md" >}}) mevcut sistemleri agentlarla uyumlu hale getirmenin zorluklarından bahsetmiştim. Mevcut sistemler insan odaklı tasarlanmış, bilgi insanların kafasına gömülmüş ve agentlar bu yapıya sonradan dahil edilmeye çalışılıyordu.
 
 Bu yazıdaysa bu soruyu tersine çevirmek istedim. Hiç bu derde girmek istemiyorsak ne yapmalıyız? Sıfırdan, agentların birlikte çalışacağını bilerek bir sistem tasarlamak nasıl görünür?
 

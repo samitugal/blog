@@ -1,10 +1,15 @@
 ---
 title: "Agentlarda Memory Kullanımı & Türleri"
 date: 2025-06-19
+lastmod: 2025-06-19
 draft: false
-summary: Bu yazıda agent mimarilerinde hafıza (memory) yapılarının neden kritik olduğunu ele alıyor; sensory’den semantic’e kadar farklı memory türlerini detaylandırıyor ve bunların uygulamadaki yerini örneklerle açıklıyorum.
+description: "AI agent mimarilerinde hafıza yapıları: sensory, short-term, long-term ve semantic memory türleri. LLM tabanlı sistemlerde context yönetimi."
+summary: "Bu yazıda agent mimarilerinde hafıza (memory) yapılarının neden kritik olduğunu ele alıyor; sensory'den semantic'e kadar farklı memory türlerini detaylandırıyor ve bunların uygulamadaki yerini örneklerle açıklıyorum."
+slug: "agent-memory-kullanimi"
+keywords: ["agent memory", "LLM", "yapay zeka", "semantic memory", "context window", "RAG", "hafıza yönetimi"]
 tags: ["generative ai", "memory", "agents"]
 categories: ["tech"]
+author: "Sami Tuğal"
 ---
 
 ## Memory Neden Önemlidir

@@ -1,10 +1,15 @@
 ---
 title: "Metadata Yönetimi ve MOF Kavramı"
 date: 2025-10-17
+lastmod: 2025-10-17
 draft: false
+description: "Metadata yönetimi nedir? MOF (Meta Object Facility) kavramı, veri katalogları ve kurumsal veri yönetiminde metadata'nın önemi."
 summary: "Metadata Yönetimi ve MOF Kavramı hakkında konuşuyoruz."
+slug: "metadata-yonetimi-mof"
+keywords: ["metadata", "MOF", "meta object facility", "veri yönetimi", "data catalog", "veri kataloğu", "data governance"]
 tags: ["metadata", "mof", "data management"]
 categories: ["data management"]
+author: "Sami Tuğal"
 ---
 
 ## 1. Giriş: Veriden Anlama Yolculuğu

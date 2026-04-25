@@ -1,10 +1,15 @@
 ---
 title: "AI Agentların Eksik Parçası: Bilgi Altyapısı"
 date: 2026-03-09
+lastmod: 2026-03-09
 draft: false
-summary: "AI agentların başarısızlıklarının temel nedeni, varolan sistemlerdeki bilgi altyapısının yetersizliğini yorumluyorum"
+description: "AI agentların başarısızlık nedeni: yetersiz bilgi altyapısı. Kurumsal sistemlerde örtük bilgi, dokümantasyon eksikliği ve agent entegrasyonu sorunları."
+summary: "AI agentların başarısızlıklarının temel nedeni, varolan sistemlerdeki bilgi altyapısının yetersizliğini yorumluyorum."
+slug: "ai-agent-bilgi-altyapisi"
+keywords: ["AI agent", "bilgi altyapısı", "kurumsal sistemler", "dokümantasyon", "MCP", "yapay zeka", "knowledge management"]
 tags: ["ai", "agent", "bilgi-altyapisi"]
 categories: ["teknoloji"]
+author: "Sami Tuğal"
 ---
 
 ## Giriş

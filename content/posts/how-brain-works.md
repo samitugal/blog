@@ -1,10 +1,15 @@
 ---
-title: "Beyin Nasıl Düşünür"
+title: "Beyin Nasıl Düşünür? Nöronlar, Sinapslar ve Yapay Zeka"
 date: 2025-07-02
+lastmod: 2025-07-02
 draft: false
+description: "İnsan beyni nasıl düşünür ve düşüncelerini nasıl dile getirir? Nöronların çalışma prensibi ve günümüz teknolojisiyle simülasyon imkanları."
 summary: "İnsan beyni nasıl düşünür, düşüncelerini dile getirir? Günümüz teknolojisiyle simüle edilebilir mi?"
+slug: "beyin-nasil-dusunur"
+keywords: ["beyin", "nöron", "sinaps", "yapay zeka", "David Eagleman", "düşünce", "bilinç"]
 tags: ["bilim", "beyin", "graf"]
 categories: ["genel"]
+author: "Sami Tuğal"
 ---
 
 ## Beynin Yapısı

@@ -1,10 +1,15 @@
 ---
 title: "The Missing Piece of AI Agents: Knowledge Infrastructure"
 date: 2026-03-09
+lastmod: 2026-03-09
 draft: false
+description: "Why AI agents fail: inadequate knowledge infrastructure. Tacit knowledge in enterprise systems, documentation gaps and agent integration challenges."
 summary: "The main reason AI agents fail is the lack of knowledge infrastructure in existing systems."
+slug: "ai-agent-knowledge-infrastructure"
+keywords: ["AI agent", "knowledge infrastructure", "enterprise systems", "documentation", "MCP", "artificial intelligence", "knowledge management"]
 tags: ["ai", "agent", "knowledge-infrastructure"]
 categories: ["technology"]
+author: "Sami Tuğal"
 ---
 
 ## Introduction

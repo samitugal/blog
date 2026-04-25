@@ -1,10 +1,15 @@
 ---
 title: "Memory Usage & Types in Agents"
 date: 2025-06-19
+lastmod: 2025-06-19
 draft: false
+description: "AI agent memory architectures: sensory, short-term, long-term and semantic memory types. Context management in LLM-based systems."
 summary: "In this post, I explain why memory structures are critical in agent architectures, detailing types from sensory to semantic memory and how they are practically applied."
-tags: ["generative ai", "mpc", "agents"]
+slug: "agent-memory-usage"
+keywords: ["agent memory", "LLM", "artificial intelligence", "semantic memory", "context window", "RAG", "memory management"]
+tags: ["generative ai", "mcp", "agents"]
 categories: ["tech"]
+author: "Sami Tuğal"
 ---
 
 ## Why Is Memory Important?

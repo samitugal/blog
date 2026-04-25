@@ -1,10 +1,17 @@
 ---
-title: "How the Brain Learns"
+title: "How the Brain Learns: Intelligence Types, Memory and AI"
 date: 2026-04-25
+lastmod: 2026-04-25
 draft: false
+description: "How does the brain learn, where is information stored, why do we forget? Sternberg's intelligence types, biological learning mechanisms and where modern AI gets stuck."
 summary: "How does the brain learn, where is information stored, and why do we forget? In this post, I explore types of intelligence, the biological learning mechanism, and where modern AI gets stuck in this process."
+slug: "how-brain-learns"
+keywords: ["learning", "brain", "artificial intelligence", "spaced repetition", "Sternberg intelligence theory", "Kahneman", "memory"]
 tags: ["science", "brain", "learning", "AI"]
 categories: ["general"]
+images:
+  - "/images/how-brain-learns/brain-header.png"
+author: "Sami Tuğal"
 ---
 
 ![Brain and circuit board hybrid, 8-bit pixel art](/images/how-brain-learns/brain-header.png)
@@ -20,7 +27,7 @@ Traditionally, IQ tests are used to measure a person's logical and verbal potent
 
 *For the verbally inclined, let's prove it: (10 / 8) × 100 = 125*
 
-IQ was once thought to be fixed from birth, but such traditional ideas about intellectual capacity are being challenged today. As I mentioned in [my previous post](/en/posts/how-brain-works): while 50% of our brain comes from genetics, the remaining 50% is shaped by the environment; this is called *plasticity*.
+IQ was once thought to be fixed from birth, but such traditional ideas about intellectual capacity are being challenged today. As I mentioned in [my previous post]({{< relref "how-brain-works.md" >}}): while 50% of our brain comes from genetics, the remaining 50% is shaped by the environment; this is called *plasticity*.
 
 ---
 
@@ -125,7 +132,7 @@ This is called the **testing effect**: trying to pull information from your own 
 
 Another important point: retrieval is often not a question of "has the information been lost?" but "couldn't I find the path to the information?" The information may be sitting in the dark corridors of the brain, but it can't be reached without the right cue at that moment. The "it's on the tip of my tongue but I can't remember" situation is exactly this. When someone gives you the context and you say "oh yes!" and remember, it's simply the return of the lost cue, not the lost information.
 
-An interesting parallel: a RAG system does exactly this. Information sits in the vector database, but it needs to be called with the right query when needed. I detailed this mechanism in [my Agent Memory post](/en/posts/agent-memory). The brain doesn't work differently; storing and retrieving are two separate problems, and the second is often more critical.
+An interesting parallel: a RAG system does exactly this. Information sits in the vector database, but it needs to be called with the right query when needed. I detailed this mechanism in [my Agent Memory post]({{< relref "agent-memory.md" >}}). The brain doesn't work differently; storing and retrieving are two separate problems, and the second is often more critical.
 
 ---
 

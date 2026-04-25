@@ -1,10 +1,15 @@
 ---
 title: "A Conceptual Framework for LLM-Based Agent Systems"
 date: 2026-01-11
+lastmod: 2026-01-11
 draft: false
+description: "Core components of LLM-based agent systems: memory, tools, sessions and messages. A framework-agnostic conceptual architecture guide."
 summary: "I attempt to build a framework-agnostic conceptual model that covers the core components of LLM-based agent systems and the relationships between them."
+slug: "llm-agent-conceptual-framework"
+keywords: ["LLM agent", "agent framework", "artificial intelligence", "memory", "tools", "AI architecture", "langchain"]
 tags: ["llm", "agent", "agent-framework"]
 categories: ["ai"]
+author: "Sami Tuğal"
 ---
 
 ## 1. Introduction
@@ -108,7 +113,7 @@ This distinction clarifies a critical point: the agent decides, the tool execute
 The capabilities layer does not give the agent intelligence. But it ensures that the agent’s decisions have a real-world effect. Without tools, agents remain entities that only produce responses. With tools, they become systems that interact with their environment and perform concrete work.
 
 ## 3.4. The Memory Layer
-Memory is a broad topic in agent systems. I covered it in detail in my earlier post, *[Memory Usage and Types in Agents](/posts/agent-memory)*. Instead of repeating it here, I want to briefly position the role of the memory layer in the context of this post.
+Memory is a broad topic in agent systems. I covered it in detail in my earlier post, *[Memory Usage and Types in Agents]({{< relref "agent-memory.md" >}})*. Instead of repeating it here, I want to briefly position the role of the memory layer in the context of this post.
 
 In the context of this post, I treat memory not as a structure that gives an agent “intelligence,” but as a layer that provides continuity and context. LLMs are stateless by nature; they cannot remember what was said in the past or which steps were taken on their own. The memory layer fills this gap. While session-based memory preserves short-term context, long-term memory enables leveraging past interactions. But the critical point is not the existence of memory—it is how and when it is used. The agent itself decides what information should be stored and what should be retrieved. In this sense, the memory layer provides an infrastructure that feeds the agent’s decision mechanism. It does not produce meaning on its own; when used correctly, it makes agent behavior consistent and context-aware.
 

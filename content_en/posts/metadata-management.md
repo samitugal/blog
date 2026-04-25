@@ -1,10 +1,15 @@
 ---
 title: "Metadata Management and the MOF Concept"
 date: 2025-10-17
+lastmod: 2025-10-17
 draft: false
+description: "What is metadata management? MOF (Meta Object Facility) concept, data catalogs and the importance of metadata in enterprise data management."
 summary: "Discussing Metadata Management and the MOF Concept."
+slug: "metadata-management-mof"
+keywords: ["metadata", "MOF", "meta object facility", "data management", "data catalog", "data governance"]
 tags: ["metadata", "mof", "data management"]
 categories: ["data management"]
+author: "Sami Tuğal"
 ---
 
 ## 1. Introduction: The Journey from Data to Understanding
