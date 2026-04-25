@@ -1,5 +1,5 @@
 ---
-title: "How Does the Brain Think?
+title: "How Does the Brain Think?"
 date: 2025-07-02
 lastmod: 2025-07-02
 draft: false
