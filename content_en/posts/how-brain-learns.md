@@ -1,5 +1,5 @@
 ---
-title: "How the Brain Learns: Intelligence Types, Memory and AI"
+title: "How the Brain Learns"
 date: 2026-04-25
 lastmod: 2026-04-25
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: "Beyin Nasıl Düşünür? Nöronlar, Sinapslar ve Yapay Zeka"
+title: "Beyin Nasıl Düşünür?"
 date: 2025-07-02
 lastmod: 2025-07-02
 draft: false

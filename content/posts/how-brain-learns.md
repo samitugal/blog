@@ -1,5 +1,5 @@
 ---
-title: "Beyin Nasıl Öğrenir? Zeka Türleri, Hafıza ve Yapay Zeka"
+title: "Beyin Nasıl Öğrenir?"
 date: 2026-04-25
 lastmod: 2026-04-25
 draft: false
