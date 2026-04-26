@@ -76,7 +76,7 @@ Burada altı çizilmesi gereken kavram *tacit knowledge*, yani yazılı bir kura
 
 ## Bilmenin İki Sistemi
 
-*Hızlı ve Yavaş Düşünme* kitabında Daniel Kahneman iki düşünce sisteminden bahseder. Sistem 1 sezgiseldir; otomatik ve hızlı çalışır, anlık olarak içgüdü ve hislerle kararlar üretir. Bir futbolcunun ayağına gelen pasa göre şutunu ayarlaması gibi: düşünmeden, anında. Sistem 2 ise bilinçli analiz ve muhakemenin sistemidir. Burada seçenekleri değerlendiririz, karar veririz, öz kontrol uygularız. Yavaştır, çaba ister, ama esnektir.
+*(Hızlı ve Yavaş Düşünme)[http://kisaurl.nl/gv9iy]* kitabında Daniel Kahneman iki düşünce sisteminden bahseder. Sistem 1 sezgiseldir; otomatik ve hızlı çalışır, anlık olarak içgüdü ve hislerle kararlar üretir. Bir futbolcunun ayağına gelen pasa göre şutunu ayarlaması gibi: düşünmeden, anında. Sistem 2 ise bilinçli analiz ve muhakemenin sistemidir. Burada seçenekleri değerlendiririz, karar veririz, öz kontrol uygularız. Yavaştır, çaba ister, ama esnektir.
 
 Sistem 2'nin en önemli işlevi Sistem 1'i eğitmektir. Tekrarlanan bir durum yeterince öğrenildikçe, kontrol yavaş yavaş Sistem 2'den Sistem 1'e geçer. Araç kullanmayı öğrenmeyi düşünelim. İlk başlarda her şey Sistem 2'nin kontrolünde: sollama yapma öncesinde dikiz aynasına bak, sinyal ver, direksiyonu kır, gaza bas. Her adım bilinçli, her adım yavaş. Yıllar geçtikçe bu adımlar Sistem 1'e devredilir; deneyimli bir sürücü artık şerit değiştirirken hiçbir şey "düşünmüyor". Aslında öğrenmenin özü tam olarak budur: bir davranışı Sistem 2'nin kontrolünden Sistem 1'in otomatizmine taşımak.
 
