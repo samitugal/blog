@@ -76,7 +76,7 @@ The concept to underline here is *tacit knowledge*—knowledge not found in any 
 
 ## Two Systems of Knowing
 
-In *(Thinking, Fast and Slow)[http://kisaurl.nl/vz9wv]*, Daniel Kahneman talks about two thinking systems. System 1 is intuitive; it operates automatically and quickly, producing decisions instantly through instinct and feelings. Like a footballer adjusting their shot based on the pass coming to their feet: without thinking, instantly. System 2 is the system of conscious analysis and reasoning. Here we evaluate options, make decisions, apply self-control. It's slow, requires effort, but it's flexible.
+In *[Thinking, Fast and Slow](http://kisaurl.nl/vz9wv)*, Daniel Kahneman talks about two thinking systems. System 1 is intuitive; it operates automatically and quickly, producing decisions instantly through instinct and feelings. Like a footballer adjusting their shot based on the pass coming to their feet: without thinking, instantly. System 2 is the system of conscious analysis and reasoning. Here we evaluate options, make decisions, apply self-control. It's slow, requires effort, but it's flexible.
 
 System 2's most important function is to train System 1. As a repeated situation is learned sufficiently, control gradually transfers from System 2 to System 1. Think about learning to drive. In the beginning, everything is under System 2's control: check the rearview mirror before overtaking, signal, turn the steering wheel, press the gas. Every step is conscious, every step is slow. As years pass, these steps are delegated to System 1; an experienced driver no longer "thinks" about anything when changing lanes. The essence of learning is exactly this: moving a behavior from System 2's control to System 1's automatism.
 
